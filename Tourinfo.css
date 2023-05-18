@@ -141,3 +141,30 @@ nav{
     text-align: center;
     color: #FFF;
 }
+
+
+/*---------- TRENDING PLACES------------- */
+
+.trending{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    margin-bottom: 30px;
+}
+
+.trending div img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+/*---------- CALL TO ACTION ------------- */
+
+.cta{
+    margin: 80x 0;
+    background-image: linear-gradient(to right, #3F2321, transparent), url(./assets/images/banner-2.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 5%;
+    color: #fff;
+}
