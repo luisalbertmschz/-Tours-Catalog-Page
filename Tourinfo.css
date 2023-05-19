@@ -199,3 +199,128 @@ nav{
     grid-gap: 30px;
     margin-bottom: 30px;
 }
+
+.stories div img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.stories div {
+    position: relative;
+    text-align: center;
+}
+
+.stories p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-size: 26px;
+
+} 
+
+
+.start-btn{
+    text-decoration: none;
+    background: #ff5361;
+    color: #FFF;
+    width: 80%;
+    max-width: 350px;
+    display: block;
+    text-align: center;
+    margin: 60px auto;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+
+
+/*---------- About StayHub------------- */
+
+.about-msg{
+    text-align: center;
+    margin: 80px 0;
+    color: #333;
+    font-size: 17px;
+}
+
+.about-msg h2{
+    font-size: 28px;
+    margin-bottom:30px;
+    font-weight: 500;
+}
+
+
+/*---------- Footer------------- */
+
+.footer{
+    margin: 80px 0 10px;
+    text-align: center;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #999;
+    font-size: 22px;
+    margin: 0 10px;
+
+}
+
+.footer hr{
+    background: #999;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
+}
+
+.footer p{
+    padding-bottom: 15px;
+}
+
+
+.active{
+    position: relative;
+}
+
+.active::after{
+    content: "";
+    background: #FFF;
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -12px;
+    border-radius: 2px;
+}
+
+
+
+/*---------- MEDIA QUERYS------------- */
+
+/*---------- Small Screens Devices------------- */
+
+@media only screen and (max-width:700px) {
+
+    .logo{
+        position: fixed;
+        top: 4%;
+        left: 7%;
+    }
+
+    .nav{
+        position: fixed;
+        top: 0;
+        z-index:100;
+        display: inline-block;
+        width: 100%;
+        padding: 100px 7% 0;
+        background: #000;
+
+    }
+    
+}
