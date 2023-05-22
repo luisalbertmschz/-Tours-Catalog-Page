@@ -1,4 +1,4 @@
-# -Tours-Catalog-Page
+# -StayHub WebPage
 This project focuses on creating a dynamic Tour Catalog Page repository using HTML, CSS, and JavaScript. The repository aims to provide an interactive and visually appealing website that showcases a collection of tour listings, allowing users to explore and select their desired travel experiences.
 
 Technologies Used:
