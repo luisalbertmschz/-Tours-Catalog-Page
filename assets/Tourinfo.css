@@ -502,3 +502,40 @@ nav.navbar-white .fa-bars{
     width: 100%;
     border-radius: 12px;
 }
+
+.house-info h3{
+    font-weight: 600;
+    font-size: 22px;
+    color: #333;
+    margin: 4px 0
+}
+
+.house-info i{
+    color: #FF5361;
+    font-size: 18px;
+    margin: 10px 1px;
+
+}
+
+.house-price{
+    text-align: right;
+}
+
+.house-price h4{
+    font-size: 20px;
+}
+
+.house-price h4 span{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sidebar{
+    border: 1px solid #999;
+    padding: 20px 30px;
+    margin-top: 30px;
+}
+
+.sidebar{
+    font-weight: 500;
+}
