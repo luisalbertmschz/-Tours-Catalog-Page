@@ -633,3 +633,99 @@ nav.navbar-white .fa-bars{
         font-size: 12px;
     }
 }
+
+
+
+/*----------  TOURS DETAILS INFO------------- */
+
+
+.tour-details{
+    padding: 0 12%;
+}
+
+.tour-title{
+    margin-top: 50px;
+}
+
+.tour-title h1{
+    font-weight: 600;
+
+}
+
+.tour-title .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.tour-title span{
+    margin: 0 20px;
+}
+
+
+.tour-title i{
+    color:#FF5361;
+
+}
+
+
+
+/* .gallery{ 
+    display: grid;
+    /* grid-gap: 10px; DEPRECATED */
+    /* gap: 10px;
+    grid-template-areas: "first first  first  . ." "first first  . .";
+} */
+
+/* .gallery div img{
+
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+
+} */
+
+
+/* .gallery-img-1{
+    grid-area: first;
+} */
+
+
+.image-grid {
+    --gap: 16px;
+    --num-cols: 4;
+    --row-height: 300px;
+  
+    box-sizing: border-box;
+    padding: var(--gap);
+  
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+    gap: var(--gap);
+  }
+  
+  .image-grid > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .image-grid-col-2 {
+    grid-column: span 2;
+  }
+  
+  .image-grid-row-2 {
+    grid-row: span 2;
+  }
+  
+  /* Anything under 1024px */
+  @media screen and (max-width: 1024px) {
+    .image-grid {
+      --num-cols: 2;
+      --row-height: 200px;
+    }
+  }
+  
