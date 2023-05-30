@@ -728,4 +728,23 @@ nav.navbar-white .fa-bars{
       --row-height: 200px;
     }
   }
+
+
+  .small-details h2{
+    font-weight: 500;
+    margin: 20px 0;
+  }
   
+  .small-details h4{
+    text-align: right;
+    font-size: 22px;
+  }
+
+  .line{
+    border: 0;
+    height: 1px;
+    background: #CCC;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px 0 50px;
+  }
