@@ -840,7 +840,7 @@ nav.navbar-white .fa-bars{
   .details-list li i{
     position: absolute;
     top: 5px;
-    left: -40px;
+    left: -45px;
   }
 
   .tour-description{
@@ -849,4 +849,18 @@ nav.navbar-white .fa-bars{
     text-align: justify;
   }
 
+  .map iframe{
+    width: 100%;
+    margin-bottom: 30px;
+  }
 
+  .map h3{
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+
+  .map b{
+    display: block;
+    margin-bottom:  16px;
+  }
