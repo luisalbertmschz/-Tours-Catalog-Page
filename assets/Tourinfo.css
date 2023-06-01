@@ -802,7 +802,7 @@ nav.navbar-white .fa-bars{
   }
 
   .check-form button{
-    background: #FF5361;
+    background: #0071eb;
     border: 0;
     outline: none;
     color: #FFF;
@@ -889,14 +889,14 @@ nav.navbar-white .fa-bars{
   }
   .timeline ul li span{
     display:inline-block;
-    background-color:#1685b8;
+    background-color:#0071eb;
     border-radius:25px;
     padding:2px 5px;
     font-size:15px;
     text-align:center;
   }
   .timeline ul li .content h3{
-    color:#34ace0;
+    color:#0071ebe0;
     font-size:17px;
     padding-top:5px;
   }
@@ -928,7 +928,7 @@ nav.navbar-white .fa-bars{
       padding:30px 5px 30px 10px;
     }
     .timeline ul li .content h3{
-      color:#34ace0;
+      color:#0071ebe0;
       font-size:15px;
     }
   
@@ -940,6 +940,8 @@ nav.navbar-white .fa-bars{
     height: 200px;
     display: inline-block;
     margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     border: 2px solid #f2f2f2;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -948,13 +950,14 @@ nav.navbar-white .fa-bars{
 
 
   .read-doc-button {
-    background-color: #4c6ef5;
+    background-color: #0071eb;
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
+    width: 200px;
   }
   
   .read-doc-button:hover {
@@ -962,4 +965,142 @@ nav.navbar-white .fa-bars{
   }
   
 
+  .organizer{
+    display: flex;
+    align-items: center;
+  }
+
+  .organizer img{
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 30px;
+  }
+
+
+  .organizer h2{
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+
+  .organizer i{
+    color: #3358d4;
+  }
+
+
+  .card {
+    margin-bottom: 1.875rem;
+    width: 250px;
+    position: relative;
+    background-color: white;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .app-file-list {
+    border: 1px solid #ebebeb;
+  }
+  
+  .app-file-list .app-file-icon {
+    background-color: #F5F5F5;
+    padding: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: 1px solid #ebebeb;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+  }
+  
+  .app-file-list:hover {
+    border-color: #d7d7d7;
+  }
+  
+  .description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .fa-download {
+    color: #333333;
+    cursor: pointer;
+    transition: 0.3s
+  }
+  
+  .fa-download:hover {
+    color: #2ec1ac;
+  }
+  
+  .fa-download:active {
+    color: #28df99;
+  }
+
+
+
+  .container1 {
+    text-align: left;
+  }
+  
+  .qr-image,
+  .card {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    width: 200px;
+  }
+  
+  
+  
+    .card {
+      margin-top: 1.875rem;
+      width: 200px;
+      position: relative;
+      background-color: white;
+      border-radius: 0.5rem;
+      border: none;
+      box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.1);
+      margin-top: 9px;
+    }
+    
+    .app-file-list {
+      border: 1px solid #ebebeb;
+    }
+    
+    .app-file-list .app-file-icon {
+      background-color: #F5F5F5;
+      padding: 2rem;
+      text-align: center;
+      font-size: 2rem;
+      border-bottom: 1px solid #ebebeb;
+      border-top-right-radius: 8px;
+      border-top-left-radius: 8px;
+    }
+    
+    .app-file-list:hover {
+      border-color: #d7d7d7;
+    }
+    
+    .description {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+    
+    .fa-download {
+      color: #333333;
+      cursor: pointer;
+      transition: 0.3s
+    }
+    
+    .fa-download:hover {
+      color: #2ec1ac;
+    }
+    
+    .fa-download:active {
+      color: #28df99;
+    }
   
